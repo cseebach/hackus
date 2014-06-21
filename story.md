@@ -6,21 +6,21 @@ programmers can't be found. So it's up to you to read the documentation and sift
 
 This basically presents itself as a bunch of hacking and computer use challenges.
 
-Challenge 1) Login to the machine.
+**Challenge 1)** Login to the machine.
 
 You have to guess the right username and password. This is simple: it's 'admin' and 'password'.
 
 Reward: 
-    You get the first few commands that you can use.
-        chdr - change current directory
-        list - list all the files and directories in a directory
-        move - move a file from one place to another
-        copy - copy a file from one place to another
-        edit - read and edit text files
-        help - list all the commands, plus help on a specific topic
-        logout - logs you out so you can switch users
+You get the first few commands that you can use
+* chdr - change current directory
+* list - list all the files and directories in a directory
+* move - move a file from one place to another
+* copy - copy a file from one place to another
+* edit - read and edit text files
+* help - list all the commands, plus help on a specific topic
+* logout - logs you out so you can switch users
         
-Challenge 2) Gain super-user privileges
+**Challenge 2)** Gain super-user privileges
 
 Hook: You find the home directory, and find a few different accounts within it. One of them is labeled djabir, the
 previous user of this pc. But, you can't change into his directory to check it out because you don't have super-user
