@@ -28,3 +28,18 @@ privileges.
 
 You have to read a help topic called "users" to figure out where the list of super-users is kept. You have to modify
 that list so it includes "admin", and then log out and log back in.
+
+**Challenge X)** Perform an SQL injection attack
+
+There's some data on a service somewhere that you need. That service is proud of having upgraded their servers to "S-SQL v6" and is so proud that they're touting it somewhere you see.
+
+You use an SQL injection attack to recover the data you want.
+
+**Challenge Y)** Use a rainbow table to recover a password
+
+Eventually, you get access to other systems as well as your own. Somebody hands you the password table to one of these systems. You use a series of programs to make and then use a rainbow table to invert the hashed passwords and get the one you want.
+
+**Challenge Z)** Use a CRC hash collision to setup a backdoor
+
+Some colleagues (or enemies) are passing data back and forth, using CRC to assure that the data was transmitted properly. The data is actually executable code. Setup false data that installs a backdoor, and then pad it appropriately so that the CRC checks collide.
+
